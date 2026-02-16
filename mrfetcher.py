@@ -88,7 +88,7 @@ class MrFetcher:
         try:
 
             with open(self.output, "a", encoding="utf-8") as file:
-                file.write(f"\n[+][{datetime.now()}]Intercepted: {packet.summary()}")
+                file.write(f"\nf[+][Packet #{self.total}]   [{datetime.now()}]   Intercepted: {packet.summary()})")
 
         except:
             pass  

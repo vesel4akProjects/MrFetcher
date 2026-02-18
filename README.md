@@ -1,4 +1,4 @@
-Mr. Fetcher is a universal packet sniffer written in Python.
+# Mr. Fetcher is a universal packet sniffer written in Python.
 
 This tool allows you to analyze internet traffic on the operating system running Mr. Fetcher. This tool is essentially a simpler version of Wireshark. Unlike Wireshark, Mr. Fetcher works exclusively in the console and offers filtering and logging capabilities. Python 3.13+ and root access are required to run the tool.
 #How to install?
@@ -20,13 +20,13 @@ Go to the project folder.
 cd Mr.Fetcher
 ```
 
-#Install the dependencies.
+# Install the dependencies.
 
 ```
 sudo pip install -r requirements.txt
 ```
 
-#Run Mr.Fetcher.
+# Run Mr.Fetcher.
 
 If your operating system is Windows, you can directly run 'mrfetcher.exe'
 
@@ -44,7 +44,7 @@ sudo python3 mrfetcher.py
 This option will launch Mr. Fetcher by default without any configuration.
 
 
-#Flags and options
+# Flags and options
 For a complete overview, run:
 ```
 python mrfetcher.py --help
@@ -89,7 +89,7 @@ Example run:
 ```
 sudo python3 mrfetcher.py --count 30
 ```
-#Important clarifications!
+# Important clarifications!
 
 I do not recommend using --filter and --mode simultaneously. The tool may crash and produce errors. If you only need to capture a specific protocol, use --mode. If you need to capture multiple protocols or specify a condition, use --filter instead of --mode.
 
@@ -111,7 +111,7 @@ We plan to add 6 new flags and new improvements in the future:
 
 We plan to improve this by adding the ability to view multiple protocols in --mode and also by not capitalizing protocols, such as DNS.
 
-#Ethical Standards:
+# Ethical Standards:
 
 This tool is intended for training in cybersecurity, traffic analysis, network understanding, and system administration. It is very useful on low-power systems or systems without a graphical interface. Mr. Fetcher is also useful in CTF competitions or penetration testing.
 

@@ -1,4 +1,4 @@
-#Mr. Fetcher is a universal packet sniffer written in Python.
+Mr. Fetcher is a universal packet sniffer written in Python.
 
 This tool allows you to analyze internet traffic on the operating system running Mr. Fetcher. This tool is essentially a simpler version of Wireshark. Unlike Wireshark, Mr. Fetcher works exclusively in the console and offers filtering and logging capabilities. Python 3.13+ and root access are required to run the tool.
 #How to install?

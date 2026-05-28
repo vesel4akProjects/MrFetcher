@@ -23,7 +23,7 @@ cd Mr.Fetcher
 # Install the dependencies.
 
 ```
-sudo pip install -r requirements.txt
+sudo pip install -r requirements.txt --break-system-packages
 ```
 
 # Run Mr.Fetcher.
@@ -55,7 +55,7 @@ This will give you a full list of flags.
 
 Example run:
 ```
-sudo python3 mrfetcher.py --iface etho0
+sudo python3 mrfetcher.py --iface eth0
 ```
 Mr. Fetcher checks the number of network interfaces on your operating system.
 
